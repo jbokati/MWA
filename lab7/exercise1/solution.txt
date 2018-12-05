@@ -1,0 +1,12 @@
+
+{
+    _id: ObjectId(),
+    title: 'Book_Name',
+    isbn: 'BN101',
+    author: {name:'XYX', email: 'xyz@mum.edu'},
+    keywords: ['Book','XYZ','BN101'],
+    borrowed: true,
+    borrowed_by: {name:'Student1',email:'student1@mum.edu',id:000001},
+    borrowed_date: new Date('Nov 5 2018'),
+    returned_date: new Date('NOV 20 2018')
+}
